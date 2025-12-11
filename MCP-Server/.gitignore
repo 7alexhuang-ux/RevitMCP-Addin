@@ -1,0 +1,19 @@
+# Sensitive Info
+.env
+chats.json
+
+# Dependencies
+node_modules/
+
+# Logs & Debug
+error_log.txt
+debug_server.js
+gemini_models.txt
+models.txt
+models_full.txt
+list_models.js
+test_*.js
+
+# System
+thumbs.db
+.DS_Store

@@ -1,0 +1,24 @@
+# Visual Studio / C#
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Dependencies
+MCP-Server/node_modules/
+node_modules/
+
+# Environment Variables
+.env
+MCP-Server/.env
+
+# Logs & Data
+MCP-Server/chats.json
+*.log
+error_log.txt
+*.tmp
+
+# MacOS / Window
+.DS_Store
+thumbs.db
