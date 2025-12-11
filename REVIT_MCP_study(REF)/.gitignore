@@ -1,0 +1,39 @@
+# Build outputs
+MCP/MCP/bin/
+MCP/MCP/obj/
+MCP-Server/build/
+MCP-Server/node_modules/
+
+# IDE and Editor files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/mcp.json
+!.vscode/GIT_SETUP.md
+*.user
+*.suo
+*.cache
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Package files
+*.nupkg
+
+# Agent/workflow files
+.agent/

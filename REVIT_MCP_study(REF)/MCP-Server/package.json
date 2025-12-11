@@ -1,0 +1,33 @@
+{
+  "name": "revit-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Revit integration - AI-Powered Revit Control",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "watch": "tsc --watch",
+    "clean": "rimraf build"
+  },
+  "keywords": [
+    "mcp",
+    "revit",
+    "ai",
+    "claude",
+    "autodesk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/ws": "^8.5.13",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "revit-mcp-2022": {
+      "command": "node",
+      "args": [
+        "【請修改此路徑】/MCP-Server/build/index.js"
+      ],
+      "env": {
+        "REVIT_VERSION": "2022"
+      }
+    }
+  }
+}
