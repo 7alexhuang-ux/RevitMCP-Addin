@@ -6,11 +6,11 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using RevitMCP.Services;
-using RevitMCP.Tools;
-using RevitMCP.Utils;
+using AlexMCP.Services;
+using AlexMCP.Tools;
+using AlexMCP.Utils;
 
-namespace RevitMCP.Views
+namespace AlexMCP.Views
 {
     public partial class ChatWindow : Window
     {

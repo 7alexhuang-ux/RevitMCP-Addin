@@ -1,5 +1,5 @@
 {
-  "name": "revit-mcp-server",
+  "name": "alex-mcp-server",
   "version": "1.0.0",
   "description": "MCP Server for Revit integration (Gemini Edition)",
   "main": "server.js",

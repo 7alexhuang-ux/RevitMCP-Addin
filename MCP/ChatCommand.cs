@@ -2,11 +2,11 @@ using System;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using RevitMCP.Views;
-using RevitMCP.Tools;
-using RevitMCP.Utils;
+using AlexMCP.Views;
+using AlexMCP.Tools;
+using AlexMCP.Utils;
 
-namespace RevitMCP
+namespace AlexMCP
 {
     [Transaction(TransactionMode.Manual)]
     public class ChatCommand : IExternalCommand

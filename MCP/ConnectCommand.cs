@@ -7,7 +7,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Newtonsoft.Json;
 
-namespace RevitMCP
+namespace AlexMCP
 {
     [Transaction(TransactionMode.Manual)]
     public class ConnectCommand : IExternalCommand

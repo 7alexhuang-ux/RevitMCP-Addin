@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Autodesk.Revit.UI;
 
-namespace RevitMCP.Utils
+namespace AlexMCP.Utils
 {
     public class RevitEvent : IExternalEventHandler
     {

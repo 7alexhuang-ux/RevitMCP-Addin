@@ -3,7 +3,7 @@ using System.Reflection;
 using Autodesk.Revit.UI;
 using System.Windows.Media.Imaging;
 
-namespace RevitMCP
+namespace AlexMCP
 {
     public class Application : IExternalApplication
     {
@@ -12,36 +12,36 @@ namespace RevitMCP
             try
             {
                 // Create Ribbon Tab
-                string tabName = "MCP Tools";
+                string tabName = "AlexMCP Tools";
                 application.CreateRibbonTab(tabName);
 
                 // Create Ribbon Panel
-                RibbonPanel panel = application.CreateRibbonPanel(tabName, "MCP Connect");
+                RibbonPanel panel = application.CreateRibbonPanel(tabName, "Alex Connect");
 
                 // Create Connect Button
                 string assemblyPath = Assembly.GetExecutingAssembly().Location;
                 PushButtonData connectButtonData = new PushButtonData(
-                    "MCPConnect",
+                    "AlexMCPConnect",
                     "Connect",
                     assemblyPath,
-                    "RevitMCP.ConnectCommand");
+                    "AlexMCP.ConnectCommand");
 
                 PushButton connectButton = panel.AddItem(connectButtonData) as PushButton;
                 connectButton.ToolTip = "Connect to MCP Server (Gemini)";
-                connectButton.LargeImage = GetEmbeddedImage("RevitMCP.Resources.Connect32.png");
-                connectButton.Image = GetEmbeddedImage("RevitMCP.Resources.Connect32.png");
+                connectButton.LargeImage = GetEmbeddedImage("AlexMCP.Resources.Connect32.png");
+                connectButton.Image = GetEmbeddedImage("AlexMCP.Resources.Connect32.png");
 
                 // Create Chat Button
                 PushButtonData chatButtonData = new PushButtonData(
-                    "MCPChat",
+                    "AlexMCPChat",
                     "Chat",
                     assemblyPath,
-                    "RevitMCP.ChatCommand");
+                    "AlexMCP.ChatCommand");
 
                 PushButton chatButton = panel.AddItem(chatButtonData) as PushButton;
                 chatButton.ToolTip = "Open AI Chat Window";
-                chatButton.LargeImage = GetEmbeddedImage("RevitMCP.Resources.Chat32.png");
-                chatButton.Image = GetEmbeddedImage("RevitMCP.Resources.Chat32.png");
+                chatButton.LargeImage = GetEmbeddedImage("AlexMCP.Resources.Chat32.png");
+                chatButton.Image = GetEmbeddedImage("AlexMCP.Resources.Chat32.png");
 
                 return Result.Succeeded;
             }

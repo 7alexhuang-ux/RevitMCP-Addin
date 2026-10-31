@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Application">
-    <Name>MCP Connect</Name>
-    <Assembly>RevitMCP.dll</Assembly>
+    <Name>AlexMCP Tools</Name>
+    <Assembly>AlexMCP.dll</Assembly>
     <ClientId>B9C5CC2F-2201-41C4-AF6C-5D6C910D6988</ClientId>
-    <FullClassName>RevitMCP.Application</FullClassName>
+    <FullClassName>AlexMCP.Application</FullClassName>
     <VendorId>ADSK</VendorId>
     <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
   </AddIn>

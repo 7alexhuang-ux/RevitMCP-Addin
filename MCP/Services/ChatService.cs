@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using RevitMCP.Tools;
-using RevitMCP.Utils;
+using AlexMCP.Tools;
+using AlexMCP.Utils;
 
-namespace RevitMCP.Services
+namespace AlexMCP.Services
 {
     public class ChatSession
     {
